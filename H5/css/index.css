@@ -1,0 +1,285 @@
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    line-height: 1.5;
+    margin: 0 auto;
+    background: #f6f6f6;
+    font-size: 14px;
+    font-family: -apple-system, Helvetica, sans-serif;
+    color: #666;
+    height: 1200px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 45px;
+}
+
+.app {
+    height: 45px;
+}
+
+.app ul li {
+    float: left;
+    height: 45px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+.app ul li:nth-child(1) {
+    width: 8%;
+}
+
+.app ul li:nth-child(1) img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.app ul li:nth-child(2) {
+    width: 10%;
+}
+
+.app ul li:nth-child(2) img {
+    width: 30px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.app ul li:nth-child(3) {
+    width: 57%;
+}
+
+.app ul li:nth-child(4) {
+    background: #ff440f;
+    width: 25%;
+}
+
+.search-warp {
+    width: 100%;
+    height: 44px;
+    overflow: hidden;
+    font-size: 16px;
+    position: fixed;
+    min-width: 320px;
+    max-width: 640px;
+    color: #fff;
+    background: rgb(200, 37, 25);
+}
+
+.search-warp .btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 44px;
+    width: 40px;
+}
+
+.search-warp .btn::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 18px;
+    background: url(../images/index.png);
+    background-repeat: no-repeat;
+    background-size: 20px 18px;
+    margin-top: 14px;
+    margin-left: 15px;
+}
+
+.search-warp .login {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.search-warp .search {
+    margin: 0 50px;
+    height: 30px;
+    position: relative;
+    margin-top: 7px;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.search-warp .search .jing-icon {
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    background-image: url(../images/jingdong.png);
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+}
+
+.search-warp .search .jing-icon:after {
+    content: "";
+    display: block;
+    height: 15px;
+    width: 1px;
+    background-color: rgb(184, 183, 183);
+    position: absolute;
+    right: -10px;
+}
+
+.sou {
+    width: 18px;
+    height: 15px;
+    background: pink;
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    background: url(../images/jd-sprites.png) no-repeat 44.892% 0;
+    background-size: 200px 200px;
+
+}
+
+.slider {
+    width: 100%;
+    height: 144px;
+}
+
+.slider .img {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(200, 37, 25);
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    background-image: linear-gradient(0deg, #f1503b, #c82519 50%);
+}
+
+.slider .swiper {
+    display: flex;
+    justify-content: center;
+}
+
+.slider .swiper img {
+    margin-top: 2px;
+    width: 94%;
+    border-radius: 15px;
+}
+
+.tab {
+    height: 104px;
+    width: 100%;
+}
+
+.tab .left img,
+.tab .right img,
+.tab .center img {
+    width: 33.33%;
+    float: left;
+}
+
+img {
+    vertical-align: top;
+}
+
+.nav {
+    width: 100%;
+    font-size: 12px;
+    height:168px;
+}
+
+.nav a {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.nav a img {
+    width: 40px;
+    margin: 10px 0;
+}
+
+.nav span {
+    display: block;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+.main-content{
+    margin-top:44px;
+}
+
+.miaosha {
+    height:140px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    background-image: url(../images/miiaosha.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.miaosha .header {
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+}
+
+.miaosha .goods {
+    height: 105px;
+}
+
+.miaosha .header a:nth-child(1) {
+    padding-left: 10px;
+}
+
+.miaosha .header .seckill-nth {
+    display: inline;
+    font-size: 13px;
+    color: #ff2727;
+    letter-spacing: 0;
+    text-align: center;
+    width:18px;
+}
+
+.miaosha .header .seckill-nth::after {
+    background-image: url(../images/dianchanfg.png);
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    display: inline-block;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 9px;
+}
+
+.miaosha .header a:nth-child(2) {
+    font-size: 12px;
+    color: #f23030;
+    float: right;
+    width: 85px;
+    text-align: right;
+    position: relative;
+    margin-right: 30px;
+}
+
+.miaosha .header a:nth-child(2)::after{
+    background: url(../images/miaoshayoujiantou.png);
+    content: "";
+    background-size: cover;
+    position: absolute;
+    right: -14px;
+    top: 11.4px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 11.4px;
+    height: 11.4px;
+}
